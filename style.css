@@ -1,0 +1,109 @@
+/* General */
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+
+.week {
+  position: absolute;
+  margin: auto;
+  font-family: Lato-Regular;
+  font-size: 14px;
+  color: rgba(232, 232, 232, 0.4);
+  z-index: 200;
+}
+.week-top {
+  top: 10%;
+}
+.week-p {
+
+}
+.number {
+  border: 1px solid #F4F4F4;
+  padding: 2px 5px;
+}
+.week-bottom {
+  bottom: 10%;
+}
+
+/*  */
+
+
+/* WEEK 1 */
+
+.fire-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fire-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #720F0F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fire-with-fire {
+  margin: auto;
+  text-align: left;
+  max-width: 80vw;
+  word-wrap: break-word;
+  opacity: 0.7;
+  font-family: Lato-Regular;
+  font-size: 12vw;
+  letter-spacing: 5vw;
+  line-height: 13.5vh;
+}
+
+.fire-red {
+  color: #941919;
+}
+.fire-yellow {
+  color: #AC8719;
+}
+.fire-deep-red{
+  color: #771E0C;
+}
+.fire-orange {
+  color: #C18A1C;
+}
+.fire-red {
+  color: #9A1F03;
+}
+.fire-deep-orange {
+  color: #AF6017;
+}
+.fire-deepest-red {
+  color: #4B100A;
+}
+
+.fire-foreground {
+  position: absolute;
+  border: 3px solid #FFFFFF;
+  margin: auto;
+  height: 300px;
+  width: 250px;
+  z-index: 1;
+  background-color: rgba(32, 40, 93, 0.2);
+}
+
+.fire-title {
+  font-family: Lato-SemiboldItalic;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 13.5px;
+  padding: 25px 20px;
+}
+
+.fire-paragraph {
+  text-align: left;
+  font-family: Unna-Regular;
+  font-size: 29px;
+  color: #FFFFFF;
+  padding: 25px 50px;
+}
