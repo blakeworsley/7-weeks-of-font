@@ -8,7 +8,7 @@ section {
 .week {
   position: absolute;
   margin: auto;
-  font-family: Lato-Regular;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: rgba(232, 232, 232, 0.4);
   z-index: 200;
@@ -54,7 +54,7 @@ section {
   max-width: 80vw;
   word-wrap: break-word;
   opacity: 0.7;
-  font-family: Lato-Regular;
+  font-family: 'Lato', sans-serif;
   font-size: 12vw;
   letter-spacing: 5vw;
   line-height: 13.5vh;
@@ -93,7 +93,9 @@ section {
 }
 
 .fire-title {
-  font-family: Lato-SemiboldItalic;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 700;
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 13.5px;
@@ -102,8 +104,38 @@ section {
 
 .fire-paragraph {
   text-align: left;
-  font-family: Unna-Regular;
+  font-family: 'Unna', serif;
   font-size: 29px;
   color: #FFFFFF;
   padding: 25px 50px;
+}
+
+
+.fire-background {
+  background: linear-gradient(319deg, #530404, #841212, #843412, #7e2a2a);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  -o-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+  @-webkit-keyframes AnimationName {
+      0%{background-position:46% 0%}
+      50%{background-position:55% 100%}
+      100%{background-position:46% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:46% 0%}
+      50%{background-position:55% 100%}
+      100%{background-position:46% 0%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:46% 0%}
+      50%{background-position:55% 100%}
+      100%{background-position:46% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:46% 0%}
+      50%{background-position:55% 100%}
+      100%{background-position:46% 0%}
+  }
 }
