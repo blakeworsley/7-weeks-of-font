@@ -10,7 +10,7 @@ section {
   margin: auto;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  color: rgba(232, 232, 232, 0.4);
+  color: rgba(156, 156, 156, 0.4);
   z-index: 200;
 }
 .week-top {
@@ -138,4 +138,48 @@ section {
       50%{background-position:55% 100%}
       100%{background-position:46% 0%}
   }
+}
+
+.steve-html-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.steve-quote {
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  color: #d6d6d6;
+  line-height: 1.2em;
+  padding: 40px;
+}
+
+.steve-new-line {
+  display: block;
+}
+
+.steve-indent-1 {
+  padding-left: 20px;
+}
+
+.steve-indent-2 {
+  padding-left: 40px;
+}
+
+.steve-indent-3 {
+  padding-left: 60px;
+}
+
+.steve-indent-4 {
+  padding-left: 80px;
+}
+
+.steve-highlighted {
+  color: rgb(94, 94, 94);
+  font-style: italic;
+  font-size: 1em;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 0.1em;
+  /*text-shadow: 1px 1px 3px rgba(255, 251, 157, 0.26);*/
 }
